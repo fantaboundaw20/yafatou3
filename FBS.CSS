@@ -1,0 +1,319 @@
+
+
+    
+   
+.footer-logo {
+    width: 150px; /* Ajustez la largeur du logo */
+}
+.footer-links, .footer-info, .social-icons {
+    list-style: none;
+    padding: 0;
+    color: #ffffff
+}
+.footer-links a, .footer-info a {
+    text-decoration: none;
+    color: #ffffff; /* Couleur des liens */
+}
+.footer-links a:hover, .footer-info a:hover {
+    text-decoration: underline;
+    color: #ffffff; /* Couleur des liens au survol */
+}
+.social-icons {
+    display: flex;
+    gap: 15px;
+}
+.newsletter-input {
+    margin-right: 10px;
+    color: #ffffff
+}
+
+* Modifier le fond de la section */
+#outils {
+    background-color: white;
+}
+
+/* Couleur des titres et du texte */
+.card-title {
+    color: #6A0DAD;
+}
+
+.card-text {
+    color: black;
+}
+
+/* Couleur des icônes */
+.icon-service {
+    font-size: 40px;
+    color: #6A0DAD;
+}
+
+/* Effet de survol sur les cartes (texte et bordure) */
+.service-card:hover {
+    border: 2px solid #6A0DAD;
+}
+
+.service-card:hover .card-title {
+    color: #6A0DAD;
+}
+
+/* Modifier le fond de la section */
+#services {
+    background-color: white;
+}
+
+/* Couleur des titres et du texte */
+#services .card-title {
+    color: #6A0DAD; /* Couleur violet pour le titre */
+}
+
+#services .card-text {
+    color: black; /* Couleur du texte normal */
+}
+
+/* Couleur des icônes */
+#services .icon-service {
+    font-size: 40px;
+    color: #6A0DAD; /* Couleur violet pour les icônes */
+}
+
+/* Effet de survol sur les cartes (texte et bordure) */
+#services .service-card {
+    border: 2px solid transparent; /* Bordure par défaut */
+    transition: border-color 0.3s; /* Transition pour l'effet de survol */
+    border-radius: 5px; /* Coins arrondis pour les cartes */
+}
+
+#services .service-card:hover {
+    border: 2px solid #6A0DAD; /* Bordure violet au survol */
+}
+
+#services .service-card:hover .card-title {
+    color: #6A0DAD; /* Couleur du titre au survol */
+}
+
+    /* Ajout de l'effet de survol */
+    .service-card {
+        transition: transform 0.3s ease;
+    }
+
+    .service-card:hover {
+        transform: scale(1.05); /* Agrandissement de la carte au survol */
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Ajout d'une ombre */
+    }
+
+    service-card:hover {
+        transform: translateY(-5px); /* Légère élévation lors du survol */
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Ombre autour de la carte */
+    }
+    
+    .service-card h4:hover {
+        color: #6A0DAD; /* Change la couleur du texte sur survol */
+        text-decoration: underline; /* Souligne le texte lors du survol */
+    }
+    contact-form {
+        background-color: #f9f9f9;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        max-width: 600px;
+        margin: auto;
+    }
+    .contact-form h2 {
+        color: #6A0DAD;
+    }
+    .contact-form label {
+        color: #6A0DAD;
+    }
+    .contact-form input, .contact-form textarea {
+        border: 1px solid #6A0DAD;
+    }
+    .contact-form button {
+        background-color: #6A0DAD;
+        color: white;
+        border: none;
+        transition: background-color 0.3s;
+    }
+    .contact-form button:hover {
+        background-color: #5A0C8F;
+    }
+    #contact {
+        padding: 50px 0;
+        background-color: #F0F0F0; /* Gris clair */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .contact-form-container {
+        max-width: 700px;
+        padding: 40px 20px;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    .contact-form h4, .contact-info h5 {
+        color: #6A0DAD;
+    }
+    .contact-form .form-control {
+        border-color: #6A0DAD;
+    }
+    .contact-form button {
+        background-color: #6A0DAD;
+        color: white;
+        border: none;
+        width: 100%;
+        padding: 10px;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+    }
+    .contact-form button:hover {
+        background-color: #5A0C8F;
+    }
+    .contact-info a {
+        color: #6A0DAD;
+        text-decoration: none;
+    }
+    .contact-info a:hover {
+        text-decoration: underline;
+    }
+
+    /* Titre Contact */
+h1 {
+    color: #6A0DAD;
+    font-size: 2.5rem;
+}
+
+/* Bouton Envoyer */
+.btn-primary {
+    background-color: #6A0DAD;
+    border-color: #6A0DAD;
+    color: #fff;
+}
+.btn-primary:hover {
+    background-color: #5A008C;
+    border-color: #5A008C;
+}
+
+/* Champs Formulaire */
+.form-group label {
+    font-weight: bold;
+}
+.form-control {
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+/* Icônes Réseaux Sociaux */
+.social-icon i {
+    color: #6A0DAD;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 10px;
+    transition: background-color 0.3s, color 0.3s;
+}
+.social-icon i:hover {
+    background-color: #6A0DAD;
+    color: #fff;
+}
+
+/* Ajustement Marges */
+.container .row > div {
+    margin-left: auto;
+    margin-right: auto;
+}
+/* Ajuster la taille des icônes pour mobiles */
+.navbar-nav .nav-link {
+    font-size: 14px;
+}
+
+@media (max-width: 768px) {
+    .navbar-brand img {
+        height: 50px;
+    }
+    footer img {
+        height: 60px;
+    }
+    footer .d-flex {
+        flex-direction: column;
+        gap: 1rem;
+    }
+}
+.navbar-toggler {
+    border: none;
+    background-color: transparent;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+@media (max-width: 768px) {
+    footer .d-flex {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+}
+/* Navbar style */
+.navbar {
+    padding: 10px 0;
+}
+
+.navbar-brand img {
+    height: 80px;
+}
+
+/* Nav links */
+.navbar-nav .nav-link {
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #F1C40F;
+}
+
+/* Responsive adjustments */
+@media (max-width: 992px) {
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .navbar-nav .nav-item {
+        margin: 10px 0;
+    }
+}
+/* Footer General Styles */
+footer {
+    background-color: #6A0DAD;
+}
+
+footer h5 {
+    color: #F1C40F;
+    font-weight: bold;
+}
+
+footer p, footer a {
+    color: white;
+    font-size: 14px;
+}
+
+/* Social Icons */
+footer a {
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #F1C40F;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    footer .row {
+        text-align: center;
+    }
+
+    footer .col-md-6 {
+        margin-bottom: 20px;
+    }
+}
